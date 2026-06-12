@@ -1,22 +1,8 @@
 # Bank Management System
 
-## Overview
+A Java-based desktop banking application designed to streamline customer account management and banking transactions through a secure and interactive graphical user interface.
 
-A desktop-based Bank Management System developed using Java Swing, JDBC, and MySQL. The application enables users to perform banking operations such as account creation, deposits, withdrawals, balance inquiry, PIN change, and transaction history management through an interactive graphical user interface.
-
-## Features
-
-* User Authentication and Secure Login
-* New Account Registration
-* Deposit and Withdrawal Operations
-* Fast Cash Functionality
-* Balance Inquiry
-* Mini Statement Generation
-* PIN Change Module
-* MySQL Database Integration
-* Exception Handling and Input Validation
-
-## Technologies Used
+## Tech Stack
 
 * Java
 * Java Swing
@@ -24,32 +10,40 @@ A desktop-based Bank Management System developed using Java Swing, JDBC, and MyS
 * MySQL
 * Object-Oriented Programming (OOP)
 
-## Project Architecture
+## Key Features
 
-* Presentation Layer: Java Swing GUI
-* Business Logic Layer: Java Classes
-* Data Access Layer: JDBC
-* Database: MySQL
+✔ Secure User Authentication and Login
 
-## Key Highlights
+✔ Customer Account Registration
 
-* Designed and developed a desktop banking application with a user-friendly interface.
-* Implemented CRUD operations and real-time database connectivity using JDBC.
-* Applied OOP principles, exception handling, and modular programming practices.
-* Integrated MySQL for secure storage and retrieval of customer and transaction data.
+✔ Deposit and Withdrawal Management
 
-## Learning Outcomes
+✔ Balance Inquiry and Mini Statement Generation
 
-* Java GUI Development using Swing
-* Database Connectivity with JDBC
-* SQL Query Execution and Data Management
-* Object-Oriented Design Principles
-* Exception Handling and Debugging
+✔ PIN Change Functionality
 
-## Future Enhancements
+✔ Real-Time Database Integration using JDBC
 
-* Role-Based Access Control
-* Transaction Receipts in PDF Format
-* Email Notifications
-* Spring Boot REST API Integration
-* Online Banking Features
+✔ Transaction Record Management
+
+✔ Exception Handling and Input Validation
+
+## System Design
+
+The application follows a modular architecture with separate layers for user interface, business logic, and database operations. JDBC is utilized for efficient communication with MySQL, ensuring reliable data persistence and retrieval.
+
+## Technical Highlights
+
+* Developed an event-driven desktop application using Java Swing.
+* Implemented database connectivity and CRUD operations using JDBC and MySQL.
+* Applied Object-Oriented Programming principles including encapsulation and modular design.
+* Integrated secure authentication workflows and transaction processing logic.
+* Designed reusable components to improve maintainability and scalability.
+
+## Skills Demonstrated
+
+Java • Swing • JDBC • MySQL • SQL • CRUD Operations • OOP • Exception Handling • Database Connectivity • GUI Development • Software Design
+
+## Project Impact
+
+Successfully built a functional banking management system capable of handling core banking operations, demonstrating proficiency in full-cycle application development, database integration, and software engineering fundamentals.
